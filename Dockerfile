@@ -6,7 +6,7 @@ FROM nginx:alpine
 
 # Copy the entrypoint script and nginx configuration
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY nginx.conf /etc/nginx/nginx.config
 
 # Make the entrypoint script executable
 RUN chmod +x /usr/local/bin/entrypoint.sh
