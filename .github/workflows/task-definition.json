@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:311141532026:task-definition/demo-deploy:5",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:311141532026:task-definition/demo-deploy:6",
     "containerDefinitions": [
         {
             "name": "demo-deploy",
@@ -39,7 +39,7 @@
     "taskRoleArn": "arn:aws:iam::311141532026:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::311141532026:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 5,
+    "revision": 6,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -88,7 +88,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-12-10T05:46:22.104Z",
+    "registeredAt": "2024-12-10T06:08:03.005Z",
     "registeredBy": "arn:aws:iam::311141532026:root",
     "enableFaultInjection": false,
     "tags": []
